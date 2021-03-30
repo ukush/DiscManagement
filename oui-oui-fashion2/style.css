@@ -99,7 +99,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 20px;
 line-height: 20px;
-color: ##000000;
+color: #000000;
 }
 
 
@@ -526,7 +526,15 @@ color: #777474;
     transition: background 0.5s;
 }
 
-    .btn:hover {
-        background: #424242;
-    }
+.btn:hover {
+    background: #424242;
+}
 
+.heading2{
+    margin-top: 30px;
+}
+
+.message-form{
+    text-align: center;
+    display: inline-block;
+}
