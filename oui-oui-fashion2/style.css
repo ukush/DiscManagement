@@ -175,7 +175,7 @@ color: #000000;
 }
 .title:after{
     content: '';
-    background: #000000;
+    background: #ff523b;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -538,3 +538,32 @@ color: #777474;
     text-align: center;
     display: inline-block;
 }
+
+/***what are customer says***/
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.customer{
+    margin-top: 20px;
+}
+.fa.fa-quote-left{
+    font-size: 12px;
+    color: #ff523b
+}
+
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.rating{
+    color: #ff523b;
+}
+
