@@ -10,6 +10,7 @@ body{
 
 h3{
 font-family: Montserrat;
+font-weight: bold;
 }
 .navbar{
     display: flex;
@@ -84,42 +85,6 @@ p{
         margin-left: 50px;
 }
 
-.slogan-1{
-font-family: Montserrat; 
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 30px;
-color: #5e5e5e;
-}
-
-.slogan-2{
-font-family: Yellowtail;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 20px;
-color: #000000;
-}
-
-
-
-
-.offercontainer {
-    height: 850px;
-    background-image: url(Images/img12.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
-
-.offer {
-    margin-left: 750px;
-    font-family: Montserrat;
-    font-size: 80px;
-    padding-top: 250px;
-}
-
 .shopbtn{
     display: inline-block;
     background: #000000;
@@ -138,7 +103,7 @@ color: #000000;
     margin-top: 70px;
 }
 .categories{
-    margin: 70px 0;  
+    margin: 70px 0;
 }
 
 .col-3{
@@ -175,7 +140,7 @@ color: #000000;
 }
 .title:after{
     content: '';
-    background: #ff523b;
+    background: #D4AF37;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -188,7 +153,7 @@ color: #000000;
     transform: translateY(-5px);
 }
 .footer{
-    
+
     color: #8a8a8a;
     font-size: 14px;
     padding: 60px;
@@ -209,6 +174,100 @@ color: #000000;
 .copyright{
     text-align: center;
 }
+
+.content-line{
+margin: 100px auto 0px auto;
+width: 1200px;
+}
+
+/**Homepage**/
+
+.slogan-1{
+font-family: Montserrat; 
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 30px;
+color: #000000;
+}
+
+.slogan-2{
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: #D4AF37;
+}
+
+
+.homepage-video{
+text-align: center;
+margin: 100px auto 100px auto;
+}
+
+.video-title{
+font-size: 48px;
+font-family: Dancing Script;
+margin-bottom: 50px;
+}
+
+.social-media{
+text-align: center;
+margin: 100px auto 200px auto;
+width: 1000px;
+}
+
+.social-media-text{
+font-size: 36px;
+font-family: Montserrat;
+font-weight: bold;
+margin-bottom: 50px;
+}
+
+.social-media-pics{
+display: grid;
+grid-template-columns: 500px 500px;
+margin-bottom: 100px;
+}
+
+.social-media-black-logo{
+margin-left: 30px;
+transition: transform 0.5s;
+}
+
+.social-media-black-logo:hover{
+transform: translateY(-5px);
+}
+
+.facebook-black{
+width: 140px;
+height: 120px;
+}
+
+.instagram-black{
+width: 150px;
+height: 120px;
+}
+
+
+
+.offercontainer {
+    height: 850px;
+    background-image: url(Images/img12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.offer {
+    margin-left: 750px;
+    font-family: Montserrat;
+    font-size: 80px;
+    padding-top: 250px;
+}
+
+
 
 /***about us page**/
 
@@ -492,10 +551,12 @@ color: #777474;
 }
 
 .slogan1 {
-    margin-left: 1200px;
+    margin-left: 800px;
     font-family: Montserrat;
     font-size: 80px;
-    padding-top: 250px;
+    padding-top: 50px;
+    font-weight: bold;
+    color: #000000;
 }
 
 .titlecontainer {
@@ -504,11 +565,9 @@ color: #777474;
 }
 
 .slogan2 {
-    margin-left: 1200px;
+    margin-left: 800px;
     font-family: Montserrat;
-    padding-top: 50px;
-    font-weight: bold;
-    color: white;
+    color: #000000;
 }
 
 .img1 {
@@ -555,7 +614,7 @@ color: #777474;
 }
 .fa.fa-quote-left{
     font-size: 12px;
-    color: #ff523b
+    color: #D4AF37;
 }
 
 .col-3 p{
@@ -564,6 +623,6 @@ color: #777474;
     color: #777;
 }
 .rating{
-    color: #ff523b;
+    color: #D4AF37;
 }
 
