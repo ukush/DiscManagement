@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oui Oui Fashion | European fashion now in Mauritius</title>
     <link rel="stylesheet" href="style.css">
+    <script src="basket.js" async></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
+    <!-----------Navigation Bar------------>
+
     <div class="header">
         <div class="container">
             <div class="navbar">
@@ -27,8 +32,8 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="aboutus.html">About Us</a></li>
                         <li><a href="contactus.html">Contact Us</a></li>
-                        <li><a href="store.html">Store</a></li>
-                        <li><a href="">My Account</a></li>
+                        <li><a href="">Shop</a></li>
+                        <li><a href="account.html">My Account</a></li>
                         <li><a href="login.html">Sign In</a></li>
                     </ul>
                 </nav>
@@ -37,44 +42,27 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="account-container">
-            <div class="container">
-                <h2>jsmith1</h2>
-                <img src="Images/blank-profile.webp" width="200px" >
-                <p>Edit profile picture</p>
-                <div class="account-container">
-                    <ul>
-                        <li>My Orders</li>
-                        <li>My Address</li>
-                        <li>My Wallet</li>
-                        <li>My Wishlist</li>
-                        <div class="selected"><li>My Account</li></div>
-                    </ul>
-                    </div>
-                    <br>
-            </div>
-        </div>
-        <div class="account-container">
-            <div class="container">
-                <h3>My Account</h3>
-                <p>View and edit your personal info below:</p>
-                <h4>Login email: jsmith1@gmail.com</h4>
 
-                <div class="account-info">
-                    <form>
-                        <input class="account-input" type="text" name="FirstName" placeholder="First Name"><br>
-                        <input class="account-input" type="text" name="LastName" placeholder="Last Name"><br>
-                        <input class="account-input" type="text" name="ContactEmail" placeholder="Contact Email"><br>
-                        <input class="account-input" type="text" name="Phone" placeholder="Phone"><br>
-                        <input class="account-button" type="Submit" name="UpdateInfo" >
-                    </form> 
-                </div>
-            </div>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
         </div>
-    </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+
 
     <!-----footer--->
+
     <div class="footer">
         <div class="container">
             <div class="row">

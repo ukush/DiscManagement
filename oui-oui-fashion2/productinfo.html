@@ -13,74 +13,78 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <!---Heading--->
 
 <body>
-<div class="header">
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <img src="Images/logo.jfif" width="125px">
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="Images/logo.jfif" width="125px">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="store.html">Shop</a></li>
+                        <li><a href="account.html">My Account</a></li>
+                        <li><a href="login.html">Sign In</a></li>
+                    </ul>
+                </nav>
+                <a href="basket.html"><img src="Images/cart.png" width="30px" height="30px" /></a>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="aboutus.html">About Us</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
-                    <li><a href="store.html">Shop</a></li>
-                    <li><a href="account.html">My Account</a></li>
-                    <li><a href="login.html">Sign In</a></li>
-                </ul>
-            </nav>
-            <img src="Images/cart.png" width="30px" height="30px">
+            <div class="line15"></div>
+            <div class="line16"></div>
+                <div class="productInformationHeader">
+                    Product Information
+                </div>
+            </div>
         </div>
-         <div class="line15"></div>
-           <div class="line16"></div>
-             <div class="productInformationHeader">
-                  Product Information
-             </div>
-         </div>
-      </div>
+        </div>
     </div>
-</div>
 
-<!---Content--->
+    <!---Content--->
+    <div class="content">
+        <img class="image13" src="Images/imghomePage1.jpg">
+        <div class="Rectangle43"></div>
+        <div class="productName">
+            Product Name
+        </div>
 
-<img class="image13" src="Images/imghomePage1.jpg">
-<div class="Rectangle43"></div>
-   <div class="productName">
-    Product Name
-</div>
+        <div class="productPrice">
+            £100
+        </div>
 
-<div class="productPrice">
-    £100
-</div>
+        <div class="productQuantity" >
+            Quantity
+        </div>
 
-<div class="productQuantity" >
-    Quantity
-</div>
+        <div class="productSize" >
+            Size
+        </div>
 
-<div class="productSize" >
-    Size
-</div>
+        <form>
+            <input class="productQuantityBox" type="number" id="Quantity" name="Quantity">
+            <select id="Size" name="Size">
+                <option value="S">Small</option>
+                <option value="M">Medium</option>
+                <option value="L">Large</option>
+            </select>
+        </form>
 
-<form>
-    <input class="productQuantityBox" type="number" id="Quantity" name="Quantity">
-    <select id="Size" name="Size">
-        <option value="S">Small</option>
-        <option value="M">Medium</option>
-        <option value="L">Large</option>
-    </select>
-</form>
+        <button class="addToBasketBox button3">Add to Basket</button>
+        <div class="boxed"></div>
+        <h1 class="product-desc-title">Product Description</h1>
+        <p class="product-desc" font-size = "12px">Donec vel lorem gravida, finibus dolor sed, sodales massa. Curabitur id ligula libero. Nulla vitae euismod leo. Vivamus id massa quis nulla tempor cursus non a arcu. Vivamus molestie ante in nisl tincidunt aliquet. Duis scelerisque, eros sed condimentum malesuada, ligula sem iaculis felis, eget tristique eros massa vitae enim. Morbi aliquam nibh sed leo porta ultrices. Nulla quis sollicitudin ligula. Duis fringilla scelerisque sollicitudin. Etiam imperdiet volutpat massa vel tincidunt. Phasellus porttitor sagittis neque, vitae malesuada arcu pellentesque eget. Mauris dui sapien, dapibus id mollis sit amet, fringilla sit amet sem. Proin fermentum varius lacus, vitae convallis tortor semper eget. Morbi urna tellus, rhoncus vitae egestas vitae, molestie in lorem. Quisque felis mauris, suscipit ac orci non, facilisis consequat tellus.</p>
+    </div>
 
-<button class="addToBasketBox button3">Add to Basket</button>
-<div class="boxed"></div>
-<h1 class="product-desc-title">Product Description</h1>
-<p class="product-desc" font-size = "12px">Donec vel lorem gravida, finibus dolor sed, sodales massa. Curabitur id ligula libero. Nulla vitae euismod leo. Vivamus id massa quis nulla tempor cursus non a arcu. Vivamus molestie ante in nisl tincidunt aliquet. Duis scelerisque, eros sed condimentum malesuada, ligula sem iaculis felis, eget tristique eros massa vitae enim. Morbi aliquam nibh sed leo porta ultrices. Nulla quis sollicitudin ligula. Duis fringilla scelerisque sollicitudin. Etiam imperdiet volutpat massa vel tincidunt. Phasellus porttitor sagittis neque, vitae malesuada arcu pellentesque eget. Mauris dui sapien, dapibus id mollis sit amet, fringilla sit amet sem. Proin fermentum varius lacus, vitae convallis tortor semper eget. Morbi urna tellus, rhoncus vitae egestas vitae, molestie in lorem. Quisque felis mauris, suscipit ac orci non, facilisis consequat tellus.</p>
-</div>
+    
+    
 
 </body>
 
