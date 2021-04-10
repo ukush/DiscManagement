@@ -14,24 +14,31 @@ function checkInputs() {
   const passwordValue = password.value.trim();
 
   var countValid = 0;
-  
+
   if(emailValue == ''){
     setErrorFor(email, 'Email cannot be blank.');
   }else if(!isEmail(emailValue)){
     setErrorFor(email, 'Double check your email and try again.');
   }else{
     setSuccessFor(email);
-    countValid+=1;
+    countValid++;
   }
 
   if(passwordValue == ''){
-    setErrorFor(telephone, 'Make sure you enter a password.');
-  }else if(passwordValue.length < 5){
-    setErrorFor(telephone, 'Password is too short');
+    setErrorFor(password, 'Make sure you enter a password.');
+  }else if(passwordValue.length < 5 || passwordValue.length > 100){
+    setErrorFor(password, 'Password must be between 4 and 100 characters.');
   }else{
-    setSuccessFor(telephone);
-    countValid+=1;
+    setSuccessFor(password);
+    countValid++;
   }
+
+  if(countValid == 2){
+      var text = "Congratulations, you have successfully registered as a member of Oui Oui Fashion! Please click confirm to continue.";
+        if(confirm(text)){
+          window.location.href="index.html";
+        }
+    }
 
 }
 

@@ -297,7 +297,6 @@ height: 120px;
 .form{
     text-align: center;
     margin-top: 30px;
-
 }
 .heading2{
     text-align: center;
@@ -445,7 +444,6 @@ margin-left: 280px;
 width: 392px;
 height: 57px;
 
-
 font-family: Raleway;
 font-style: normal;
 font-weight: normal;
@@ -458,10 +456,10 @@ color: #000000;
 }
 
 .sign-up{
-color: #D4AF37;
+color: #0071c2;
 }
 .sign-up:hover{
-color: #FFDF00
+color: #33aaff;
 }
 
 .login-logo{
@@ -605,15 +603,17 @@ color: #777474;
 }
 
 .form-control input {
-  border-top-style: none;
-  border-left-style: none;
-  border-right-style: none;
-  border-bottom-style: 1px solid #000000;
+  border: none;
+  border-bottom: 1px solid #000000;
   display: block;
   font-family: Montserrat;
   font-size: 14px;
   padding: 10px;
   width: 100%;
+}
+
+.form-control input:focus{
+outline-width: 0;
 }
 
 .form-control.success input{
@@ -624,34 +624,25 @@ color: #777474;
   border-color: #e74c3c;
 }
 
-.form-control i {
-  position: absolute;
-  top: 40px;
-  right: 10px;
-  visibility: hidden;
-}
-
-.form-control.success i.fa-check-circle{
-  color: #2ecc71;
-  visibility: visible;
-}
-
-.form-control.error i.fa-exclamation-circle{
-  color: #e74c3c;
-  visibility: visible;
-}
 
 .form-control small {
   visibility: hidden;
-  position: absolute;
-  bottom: 0;
+  font-family: Montserrat;
+  position: relative;
+  top: 20px;
   left: 0;
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .form-control.error small {
   color: #e74c3c;
   visibility: visible;
+}
+
+.make-sure-password{
+margin-top: 10px;
+font-family: Montserrat;
+font-size: 12px;
 }
 
 .sign-up-button {
@@ -666,6 +657,10 @@ color: #777474;
   margin-left: 310px;
   padding: 18px;
   width: 300px;
+}
+
+.sign-up-button:hover{
+background-color: #dbdbdb;
 }
 
 .or-sign-up-text{

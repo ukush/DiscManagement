@@ -35,7 +35,7 @@
     </div>
 </div>
 
-<form class="website-login" action="index.html">
+<div class="website-login">
 
     <div class="sign-up-title">Sign Up</div>
 
@@ -43,23 +43,23 @@
         <p class="not-a-member-yet">Already a member?<a href="login.html" class="sign-up"> Login</a></p>
     </div>
 
-    <div class="form-control">
-        <label for="">Email</label>
-        <input type="text" id="email">
-        <i class="fas fa-check-circle"></i>
-        <i class="fas fa-exclamation-circle"></i>
-        <small>Error Message</small>
-    </div>
+    <form id="form" action="index.html">
 
-    <div class="form-control">
-        <label for="">Password</label>
-        <input type="text" id="password">
-        <i class="fas fa-check-circle"></i>
-        <i class="fas fa-exclamation-circle"></i>
-        <small>Error Message</small>
-    </div>
+      <div class="form-control">
+          <label for="">Email</label>
+          <input type="text" id="email">
+          <small>Error Message</small>
+      </div>
 
-    <button class="sign-up-button">Sign up</button>
+      <div class="form-control">
+          <label for="">Password</label>
+          <input type="password" id="password">
+          <small>Error Message</small>
+      </div>
+
+      <button class="sign-up-button">Sign up</button>
+
+    </form>
 
     <div class="or-sign-up-container">
         <div class="or-line-3"></div><p class="or-sign-up-text">Or sign up with</p><div class="or-line-4"></div>
@@ -74,7 +74,7 @@
         <p>By signing up, you agree to our <ins>Privacy Policy</ins></p>
     </div>
 
-</form>
+</div>
 
 <!-----footer--->
 
@@ -106,6 +106,8 @@
         <p class="copyright">Copyright 2021</p>
     </div>
 </div>
+
+<script src="form.js"></script>
 
 </body>
 </html>
