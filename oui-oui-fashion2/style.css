@@ -297,7 +297,6 @@ height: 120px;
 .form{
     text-align: center;
     margin-top: 30px;
-
 }
 .heading2{
     text-align: center;
@@ -320,7 +319,67 @@ height: 100px;
 width: 500px;
 }
 
-/***Login and registration*/
+/*My account page*/
+
+.account-text{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Montserrat;
+}
+
+.account-container{
+    margin: auto;
+    border: 1px solid #000000;
+}
+
+.account-container ul{
+    list-style-type: none;
+}
+
+.account-container ul li{
+    border: 1px solid #000000;
+    padding: 8px;
+
+}
+
+.selected{
+    background-color: #000000;
+    color: white;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.account-info{
+    display: block;
+
+}
+.account-button{
+    display: inline-block;
+    background: #000000;
+    font-family: Montserrat;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    transition: background 0.5s;
+}
+.account-input{
+    margin-bottom: 10px;
+    min-height: 40px;
+    min-width: 200px;
+    font-family: Montserrat;
+}
+
+.message-form{
+margin: 50px 0px 0px 250px
+}
+
+/***Login and registration pages*/
 
 
 .website-login{
@@ -385,7 +444,6 @@ margin-left: 280px;
 width: 392px;
 height: 57px;
 
-
 font-family: Raleway;
 font-style: normal;
 font-weight: normal;
@@ -398,10 +456,10 @@ color: #000000;
 }
 
 .sign-up{
-color: #0365D8;
+color: #0071c2;
 }
 .sign-up:hover{
-color: #a3baff
+color: #33aaff;
 }
 
 .login-logo{
@@ -463,24 +521,23 @@ line-height: 30px;
 color: #000000;
 }
 
-.or-line{
-width: 289px;
-height: 0px;
-border: 0.5px solid #d1d1d1;
-}
-
 .or-line-1{
 position: absolute;
 top: 10px;
 right: 920px;
+width: 289px;
+height: 0px;
+border: 0.5px solid #d1d1d1;
 }
 
 .or-line-2{
 position: absolute;
 top: 10px;
 left: 80px;
+width: 289px;
+height: 0px;
+border: 0.5px solid #d1d1d1;
 }
-
 
 .login-with-email-container{
 position: relative;
@@ -512,7 +569,7 @@ color: #000000;
 .privacy-policy-container{
 position: relative;
 left: 200px;
-top: 390px;
+top: 300px;
 
 width: 645px;
 height: 49px;
@@ -525,6 +582,137 @@ line-height: 29px;
 
 color: #777474;
 
+}
+
+
+/**Sign up with email**/
+
+.form-control {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  position: relative;
+  left: 200px;
+  width: 500px;
+}
+
+.form-control label{
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-size: 24px;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: 1px solid #000000;
+  display: block;
+  font-family: Montserrat;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+
+.form-control input:focus{
+outline-width: 0;
+}
+
+.form-control.success input{
+  border-color: #2ecc71;
+}
+
+.form-control.error input{
+  border-color: #e74c3c;
+}
+
+
+.form-control small {
+  visibility: hidden;
+  font-family: Montserrat;
+  position: relative;
+  top: 20px;
+  left: 0;
+  font-size: 18px;
+}
+
+.form-control.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.make-sure-password{
+margin-top: 10px;
+font-family: Montserrat;
+font-size: 12px;
+}
+
+.sign-up-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+  display: block;
+  font-family: Montserrat;
+  font-size: 21px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 310px;
+  padding: 18px;
+  width: 300px;
+}
+
+.sign-up-button:hover{
+background-color: #dbdbdb;
+}
+
+.or-sign-up-text{
+width: 400px;
+height: 42px;
+
+position: absolute;
+right: 570px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 30px;
+
+color: #000000;
+}
+
+.or-line-3{
+position: absolute;
+top: 10px;
+right: 1010px;
+width: 200px;
+height: 0px;
+border: 0.5px solid #d1d1d1;
+}
+
+.or-line-4{
+position: absolute;
+top: 10px;
+left: 170px;
+width: 200px;
+height: 0px;
+border: 0.5px solid #d1d1d1;
+}
+
+.or-sign-up-container{
+position: relative;
+top: 60px;
+left: 440px;
+}
+
+.or-sign-up-social-media{
+position: relative;
+top: 140px;
+left: 350px;
+}
+
+.or-sign-up-social-media-logo{
+width: 75px;
+height: 66px;
+margin: 20px;
 }
 
 /*----Product Shop----*/
