@@ -424,7 +424,7 @@ margin-left: 310px;
 margin-right: auto;
 margin-bottom: 40px;
 
-width: 344px;
+width: 800px;
 height: 87px;
 
 font-family: Montserrat;
@@ -602,6 +602,25 @@ color: #0084ff;
 text-decoration: underline;
 }
 
+/**Login as Admin**/
+
+.admin-login-title{
+margin-top: 50px;
+margin-left: 190px;
+margin-right: auto;
+margin-bottom: 40px;
+
+width: 800px;
+height: 87px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 78px;
+
+color: #000000;
+}
 
 /**Sign up with email**/
 
