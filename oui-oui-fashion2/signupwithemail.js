@@ -34,7 +34,7 @@ function checkInputs() {
   }
 
   if(countValid == 2){
-      var text = "Congratulations, you have successfully registered as a member of Oui Oui Fashion! Please click confirm to continue.";
+      var text = "Congratulations, you have successfully registered as a member of Oui Oui Fashion! Please click 'OK' to continue.";
         if(confirm(text)){
           window.location.href="index.html";
         }
