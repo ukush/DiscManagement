@@ -383,7 +383,7 @@ margin: 50px 0px 0px 250px
 /***Login and registration pages*/
 
 
-.website-login{
+.login-form-container{
 display: block;
 margin-top: 90px;
 margin-left: auto;
@@ -604,11 +604,25 @@ text-decoration: underline;
 
 /**Login as Admin**/
 
+.admin-login-form-container{
+display: block;
+margin-top: 90px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 40px;
+
+width: 892px;
+height: 998px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
 .admin-login-title{
 margin-top: 50px;
 margin-left: 190px;
 margin-right: auto;
-margin-bottom: 40px;
+margin-bottom: 100px;
 
 width: 800px;
 height: 87px;
@@ -620,6 +634,18 @@ font-size: 56px;
 line-height: 78px;
 
 color: #000000;
+}
+
+.login-as-member-container{
+position: relative;
+left: 390px;
+top: 100px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 29px;
 }
 
 /**Sign up with email**/
