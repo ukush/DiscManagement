@@ -1473,3 +1473,15 @@ html, body {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
+
+
+
+/***purchase form***/
+.checkout-title {
+    color: #D4AF37;
+    margin-left: 875px;
+}
+
+.purchase-form {
+    margin-left: 750px;
+}
