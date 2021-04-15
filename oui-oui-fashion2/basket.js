@@ -4,20 +4,23 @@ if (document.readyState == 'loading') {
     ready()
 }
 
-function ready() {
-    var removeCartItemButtons = document.getElementsByClassName('btn-danger')
+if (localStorage.getItem("title") != null) addItemToCart("title", "price", "imageSrc")
+updateCartTotal();
+
+function ready() { //Declares Buttons
+    var removeCartItemButtons = document.getElementsByClassName('btn-danger')  //remove from cart
     for (var i = 0; i < removeCartItemButtons.length; i++) {
         var button = removeCartItemButtons[i]
         button.addEventListener('click', removeCartItem)
     }
 
-    var quantityInputs = document.getElementsByClassName('cart-quantity-input')
+    var quantityInputs = document.getElementsByClassName('cart-quantity-input') // quantity
     for (var i = 0; i < quantityInputs.length; i++) {
         var input = quantityInputs[i]
         input.addEventListener('change', quantityChanged)
     }
 
-    var addToCartButtons = document.getElementsByClassName('btn')
+    var addToCartButtons = document.getElementsByClassName('addToBasketBox button3') // add to cart
     for (var i = 0; i < addToCartButtons.length; i++) {
         var button = addToCartButtons[i]
         button.addEventListener('click', addToCartClicked)
@@ -37,6 +40,7 @@ function purchaseClicked() {
 
 function removeCartItem(event) {
     var buttonClicked = event.target
+    localStorage.clear()
     buttonClicked.parentElement.parentElement.remove()
     updateCartTotal()
 }
@@ -52,14 +56,19 @@ function quantityChanged(event) {
 function addToCartClicked(event) {
     var button = event.target
     var shopItem = button.parentElement.parentElement
-    var title = shopItem.getElementsByClassName("product-title")[0].innerText
-    var price = shopItem.getElementsByClassName('product-price')[0].innerText
-    var imageSrc = shopItem.getElementsByClassName('product-img')[0].src
-    addItemToCart(title, price, imageSrc)
+    //var title = shopItem.getElementsByClassName("productName")[0].innerText
+    localStorage.setItem("title", shopItem.getElementsByClassName("productName")[0].innerText)
+    //var price = shopItem.getElementsByClassName('productPrice')[0].innerText
+    localStorage.setItem("price", shopItem.getElementsByClassName('productPrice')[0].innerText)
+    //var imageSrc = shopItem.getElementsByClassName('image13')[0].src
+    localStorage.setItem("imageSrc", shopItem.getElementsByClassName('image13')[0].src)
+    var itemQuantity = document.getElementById("Quantity").value;
+    localStorage.setItem("quantity", itemQuantity)
+    addItemToCart("title", "price", "imageSrc", "quantity")
     updateCartTotal()
 }
 
-function addItemToCart(title, price, imageSrc) {
+function addItemToCart(title, price, imageSrc, quantity) {
     var cartRow = document.createElement('div')
     cartRow.classList.add('cart-row')
     var cartItems = document.getElementsByClassName('cart-items')[0]
@@ -72,12 +81,12 @@ function addItemToCart(title, price, imageSrc) {
     }
     var cartRowContents = `
         <div class="cart-item cart-column">
-            <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
-            <span class="cart-item-title">${title}</span>
+            <img class="cart-item-image" src="${localStorage.getItem(imageSrc)}" width="100" height="100">
+            <span class="cart-item-title">${localStorage.getItem(title)}</span>
         </div>
-        <span class="cart-price cart-column">${price}</span>
+        <span class="cart-price cart-column">${localStorage.getItem(price)}</span>
         <div class="cart-quantity cart-column">
-            <input class="cart-quantity-input" type="number" value="1">
+            <input class="cart-quantity-input" type="number" value=${localStorage.getItem(quantity)} >
             <button class="btn btn-danger" type="button">REMOVE</button>
         </div>`
     cartRow.innerHTML = cartRowContents
@@ -100,4 +109,5 @@ function updateCartTotal() {
     }
     total = Math.round(total * 100) / 100
     document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+    if (total > 0) localStorage.setItem("quantity", total / price)
 }
