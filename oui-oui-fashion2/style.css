@@ -1467,6 +1467,33 @@ html, body {
     margin-left: 750px;
 }
 
+/*Admin Dashboard*/
+
+.admin-dashboard-container{
+padding: 50px;
+margin-left: 200px;
+margin-bottom: 200px;
+}
+
+.admin-dashboard-container h1{
+font-size: 56px;
+font-family: Montserrat;
+color: #000000;
+}
+
+.admin-dashboard-container h2{
+font-family: Montserrat;
+color: #000000;
+}
+
+
+.admin-dashboard-link{
+margin-top: 30px;
+
+}
+
+
+
 
 /**Footer**/
 
