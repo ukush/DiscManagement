@@ -1553,3 +1553,17 @@ margin-left: 50px;
 margin: 100px auto 0px auto;
 width: 1200px;
 }
+.opening-times{
+    text-align: center;
+}
+.content-line{
+    text-align: center;
+    margin-top: 15px;
+}
+.map{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.time{
+    text-align: center;
+}
