@@ -180,57 +180,6 @@ color: #D4AF37;
 }
 
 
-.homepage-video{
-text-align: center;
-margin: 100px auto 100px auto;
-}
-
-.video-title{
-font-size: 48px;
-font-family: Dancing Script;
-margin-bottom: 50px;
-}
-
-.social-media{
-text-align: center;
-margin: 100px auto 200px auto;
-width: 1000px;
-}
-
-.social-media-text{
-font-size: 36px;
-font-family: Montserrat;
-font-weight: bold;
-margin-bottom: 50px;
-}
-
-.social-media-pics{
-display: grid;
-grid-template-columns: 500px 500px;
-margin-bottom: 100px;
-}
-
-.social-media-black-logo{
-margin-left: 30px;
-transition: transform 0.5s;
-}
-
-.social-media-black-logo:hover{
-transform: translateY(-5px);
-}
-
-.facebook-black{
-width: 140px;
-height: 120px;
-}
-
-.instagram-black{
-width: 150px;
-height: 120px;
-}
-
-
-
 .offercontainer {
     height: 850px;
     background-image: url(Images/img12.jpg);
@@ -246,8 +195,6 @@ height: 120px;
     padding-top: 250px;
 }
 
-
-
 /***about us page**/
 
 .description{
@@ -259,6 +206,62 @@ height: 120px;
 }
 .founder{
     text-align: center;
+}
+
+.homepage-video {
+    text-align: center;
+    margin: 100px auto 100px auto;
+}
+
+.video-title {
+    font-size: 48px;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+}
+
+.location {
+    text-align: center;
+    font-size: 48px;
+}
+
+
+
+.social-media {
+    text-align: center;
+    margin: 100px auto 200px auto;
+    width: 1000px;
+}
+
+.social-media-text {
+    font-size: 36px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.social-media-pics {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin-bottom: 100px;
+}
+
+.social-media-black-logo {
+    margin-left: 30px;
+    transition: transform 0.5s;
+}
+
+.social-media-black-logo:hover {
+        transform: translateY(-5px);
+    }
+
+.facebook-black {
+    width: 140px;
+    height: 120px;
+}
+
+.instagram-black {
+    width: 150px;
+    height: 120px;
 }
 
 /***contact us***/
