@@ -30,7 +30,7 @@ function checkInputs() {
   }
 
   if(countValid==2){
-     window.location.href="index.html";
+     window.location.href="admindashboard.html";
   }
 }
 
