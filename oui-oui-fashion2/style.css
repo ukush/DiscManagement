@@ -8,9 +8,18 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 
+h1{
+color: #000000;
+}
+
+h2{
+color: #000000;
+}
+
 h3{
 font-family: Montserrat;
 font-weight: bold;
+color: #000000;
 }
 /**header**/
 .header{
@@ -31,6 +40,10 @@ nav ul li{
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
+}
+
+li{
+color: #000000;
 }
 
 a{
@@ -102,6 +115,7 @@ p{
 
 .shopbtn:hover{
     background: #424242;
+    color: #ffffff;
 }
 
 .header .row{
@@ -142,6 +156,7 @@ p{
     margin: 0 auto 80px;
     position: relative;
     line-height: 60px;
+    color: #000000;
 }
 .title:after{
     content: '';
@@ -193,6 +208,7 @@ color: #D4AF37;
     font-family: Montserrat;
     font-size: 80px;
     padding-top: 250px;
+    color: #000000;
 }
 
 /***about us page**/
@@ -1110,8 +1126,9 @@ opacity: 0.6;
     margin: 12px 0;
     color: #777;
 }
-.rating{
-    color: #D4AF37;
+
+.fa{
+color: #D4AF37;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
