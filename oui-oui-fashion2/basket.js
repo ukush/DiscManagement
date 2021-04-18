@@ -110,11 +110,12 @@ function updateCartTotal() {
         var cartRow = cartRows[i]
         var priceElement = cartRow.getElementsByClassName('cart-price')[0]
         var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
-        var price = parseFloat(priceElement.innerText.replace('$', ''))
+        var price = parseFloat(priceElement.innerText.replace('Rs ', ''))
         var quantity = quantityElement.value
         total = total + (price * quantity)
+        if(total > 0) points = total / 500
     }
     total = Math.round(total * 100) / 100
-    document.getElementsByClassName('cart-total-price')[0].innerText = '$' + total
+    document.getElementsByClassName('cart-total-price')[0].innerText = 'Rs ' + total + '\n    You Will Earn ' + points + ' points'
     if (total > 0) localStorage.setItem("quantity", total / price)
 }
