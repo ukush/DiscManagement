@@ -26,10 +26,10 @@ function ready() { //Declares Buttons
         button.addEventListener('click', addToCartClicked)
     }
 
-    document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+    document.getElementsByClassName('btn')[0].addEventListener('click', purchaseClicked)
 }
 
-function purchaseClicked() {
+/*function purchaseClicked() {
     alert('Thank you for your purchase')
     var cartItems = document.getElementsByClassName('cart-items')[0]
     while (cartItems.hasChildNodes()) {
@@ -37,6 +37,13 @@ function purchaseClicked() {
     }
     updateCartTotal()
 }
+
+*/
+
+function purchaseClicked() {
+    window.location.href = "checkout.html"
+}
+
 
 function removeCartItem(event) {
     var buttonClicked = event.target
