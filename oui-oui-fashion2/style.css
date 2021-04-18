@@ -833,6 +833,7 @@ margin: 20px;
 .titlecontainer {
     height: 900px;
     background-image: url(Images/img6.jpg);
+    margin-top: -45px;
 }
 
 .slogan2 {
