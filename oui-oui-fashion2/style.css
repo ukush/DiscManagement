@@ -1278,6 +1278,7 @@ html, body {
     background-color: white;
     border-radius: black .3em;
     font-weight: bold;
+    
 }
 
     .btn-primary:hover {
@@ -1446,6 +1447,7 @@ html, body {
 .cart-total-price {
     color: #333;
     font-size: 1.1em;
+   
 }
 
 .btn-purchase {
