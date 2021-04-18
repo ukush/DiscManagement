@@ -5,8 +5,10 @@
 
 
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: Montserrat;
 }
+
+
 
 h1 {
     color: #000000;
@@ -18,7 +20,7 @@ h2 {
 
 h3 {
     font-family: Montserrat;
-    font-weight: bold;
+    font-weight: normal;
     color: #000000;
 }
 /**header**/
@@ -230,9 +232,11 @@ p {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 18px;
     line-height: 50px;
     margin-bottom: 100px;
+    text-align: center;
+    padding: 0px 100px;
 }
 
 .opening-times {
@@ -324,9 +328,14 @@ p {
     margin-top: 50px;
 }
 
+.your-satisfaction{
+text-align: center;
+font-family: Montserrat;
+margin-top: -30px;
+}
+
 .contact {
-    text-align: center;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .form-input {
@@ -335,25 +344,65 @@ p {
     min-width: 500px;
 }
 
-.message-form {
-    display: flex;
-    flex-direction: column;
-    width: 72%;
-    justify-content: center;
-    align-items: center;
+.message-form{
+padding-right: 200px;
 }
 
-    .message-form .btn {
-        background-color: #D4AF37;
-        border: none;
-        color: black;
-        font-size: 1em;
-        font-family: Montserrat;
-        padding: 10px 50px;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
 
+.message-form-text{
+width : 50%;
+height: 400px;
+float: left;
+padding-right: 50px;
+}
+
+.message-form-query{
+width: 50%;
+height: 500px;
+float: right;
+}
+
+.message-form-query .btn {
+    background-color: #D4AF37;
+    border: none;
+    color: black;
+    font-size: 1em;
+    font-family: Montserrat;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.message-form-query .btn:hover{
+background-color: #e0cd90;
+}
+
+.FAQ-container{
+margin-bottom: 400px;
+}
+
+.FAQ-column{
+text-align: center;
+width: 50%;
+height: 600px;
+}
+
+.FAQ-column-1{
+float: left;
+padding-left: 200px;
+padding-right: 10px;
+}
+
+.FAQ-column-2{
+float: right;
+padding-left: 10px;
+padding-right: 200px;
+}
+
+.FAQ-question{
+text-align: center;
+}
 
 /*My account page*/
 
@@ -1568,17 +1617,13 @@ html, body {
 }
 
 .content-line {
-    margin: 100px auto 0px auto;
+    margin: 0px auto 0px auto;
     width: 1200px;
+    border: 0.8px solid #adadad;
 }
 
 .opening-times {
     text-align: center;
-}
-
-.content-line {
-    text-align: center;
-    margin-top: 15px;
 }
 
 .map {
