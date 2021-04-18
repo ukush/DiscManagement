@@ -1198,8 +1198,8 @@ html, body {
 }
 
 .section-header {
-    font-family: "Metal Mania";
-    font-weight: normal;
+    font-family: Montserrat;
+    font-weight: bold;
     color: #333;
     text-align: center;
     font-size: 2.5em;
@@ -1447,7 +1447,7 @@ html, body {
 .cart-total-price {
     color: #333;
     font-size: 1.1em;
-   
+    margin-left: auto;
 }
 
 .btn-purchase {
@@ -1611,4 +1611,16 @@ html, body {
     margin-top: 50px;
     margin-bottom: 60px;
     text-align: center;
+}
+
+/*--Confirmation Page--*/
+
+.purchase-confirmation {
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+.purchase-confirmation h1, h2{
+    font-family: Montserrat;
+
 }
