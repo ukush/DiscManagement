@@ -4,36 +4,25 @@
 
 
 
-body{
+body {
     font-family: 'Roboto Mono', monospace;
 }
 
-h1{
-color: #000000;
+h1 {
+    color: #000000;
 }
 
-h2{
-color: #000000;
+h2 {
+    color: #000000;
 }
 
-h3{
-font-family: Montserrat;
-font-weight: bold;
-color: #000000;
+h3 {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #000000;
 }
-
-table{
-color: #000000;
-}
-thead{
-color: #000000;
-}
-td{
-color: #000000;
-}
-
 /**header**/
-.header{
+.header {
     background: #ffffff;
     text-align: center;
     border-bottom: 1px solid #C5C5C5;
@@ -41,44 +30,46 @@ color: #000000;
     margin-bottom: 0px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
 }
-nav ul li{
-    display: inline-block;
-    margin-right: 80px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-}
 
-li{
-color: #000000;
-}
+    nav ul li {
+        display: inline-block;
+        margin-right: 80px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+    }
 
-a{
-color: #000000;
-text-decoration: none;
-}
-
-a:hover{
-color: #D4AF37;
-text-decoration: none;
-}
-
-p{
+li {
     color: #000000;
 }
-.container{
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #D4AF37;
+        text-decoration: none;
+    }
+
+p {
+    color: #000000;
+}
+
+.container {
     color: #000000;
     max-width: 1300px;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-
     font-family: Montserrat;
 }
+
 .row {
     display: flex;
     align-items: center;
@@ -90,31 +81,34 @@ p{
     flex-basis: 50%;
     min-width: 300px;
 }
-.col-2 img{
-    max-width: 100%;
-    padding: 50px 0;
-}
-.col-2 h1{
-    font-size: 65px;
-    line-height: 70px;
-    margin: 25px 0;
-    padding-left: 200px;
-}
 
-.col-2 p {
-        font-size: 30px;
-        margin: 0 50px 0 200px; 
+    .col-2 img {
+        max-width: 100%;
+        padding: 50px 0;
     }
 
-.col-2 hr{
-    max-width: 82%;
-}
-.col-2.img2 {
+    .col-2 h1 {
+        font-size: 65px;
+        line-height: 70px;
+        margin: 25px 0;
+        padding-left: 200px;
+    }
+
+    .col-2 p {
+        font-size: 30px;
+        margin: 0 50px 0 200px;
+    }
+
+    .col-2 hr {
+        max-width: 82%;
+    }
+
+    .col-2.img2 {
         max-width: 100%;
         margin-left: 50px;
-}
+    }
 
-.shopbtn{
+.shopbtn {
     display: inline-block;
     background: #000000;
     color: #fff;
@@ -124,44 +118,50 @@ p{
     transition: background 0.5s;
 }
 
-.shopbtn:hover{
-    background: #424242;
-    color: #ffffff;
-}
+    .shopbtn:hover {
+        background: #424242;
+        color: #ffffff;
+    }
 
-.header .row{
+.header .row {
     margin-top: 70px;
 }
-.categories{
+
+.categories {
     margin: 70px 0;
 }
 
-.col-3{
+.col-3 {
     flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 30px;
 }
-.col-3 img{
-    width: 100%;
-}
-.small-container{
+
+    .col-3 img {
+        width: 100%;
+    }
+
+.small-container {
     max-width: 1080px;
     margin: auto;
     padding-top: 100px;
     padding-left: 25px;
     padding-right: 25px;
 }
-.col-4{
+
+.col-4 {
     flex-basis: 25%;
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
     transition: transform 0.5s;
 }
-.col-4 img{
-    width: 100%;
-}
-.title{
+
+    .col-4 img {
+        width: 100%;
+    }
+
+.title {
     font-family: Montserrat;
     text-align: center;
     margin: 0 auto 80px;
@@ -169,40 +169,42 @@ p{
     line-height: 60px;
     color: #000000;
 }
-.title:after{
-    content: '';
-    background: #D4AF37;
-    width: 80px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.col-4:hover{
+
+    .title:after {
+        content: '';
+        background: #D4AF37;
+        width: 80px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+.col-4:hover {
     transform: translateY(-5px);
 }
 
 
 /**Homepage**/
 
-.slogan-1{
-font-family: Montserrat; 
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 30px;
-color: #000000;
+.slogan-1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.slogan-2{
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 20px;
-color: #D4AF37;
+.slogan-2 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #D4AF37;
 }
 
 
@@ -224,45 +226,58 @@ color: #D4AF37;
 
 /***about us page**/
 
-.description{
+.description {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
     line-height: 50px;
-    padding: 0 80px 50px 80px;
-}
-.founder{
-    text-align: center;
+    margin-bottom: 100px;
 }
 
+.opening-times {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+.founder {
+    text-align: center;
+}
 
 .homepage-video {
     text-align: center;
     margin: 100px auto 100px auto;
 }
 
-.video-title {
-    font-size: 48px;
-    font-family: Montserrat;
-}
-
 .location {
     text-align: center;
-    font-size: 48px;
+    font-size: 36px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
-.store-image{
-margin-bottom: 80px;
+.store-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.opening-times table{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-padding-left: 600px;
-padding-bottom: 100px;
+.times {
+    font-size: 36px;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 100px;
 }
 
 .social-media {
@@ -289,7 +304,7 @@ padding-bottom: 100px;
     transition: transform 0.5s;
 }
 
-.social-media-black-logo:hover {
+    .social-media-black-logo:hover {
         transform: translateY(-5px);
     }
 
@@ -305,66 +320,65 @@ padding-bottom: 100px;
 
 /***contact us***/
 
-.contact{
+.title {
+    margin-top: 50px;
+}
+
+.contact {
     text-align: center;
     font-size: 24px;
 }
-.details{
-    text-align: center;
-    font-size: 22px;
-    margin-top: 30px;
+
+.form-input {
+    margin-top: 20px;
+    min-height: 30px;
+    min-width: 500px;
 }
 
-.heading2{
-    text-align: center;
-    margin-bottom: 20px;
+.message-form {
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    justify-content: center;
+    align-items: center;
 }
 
-.message-form{
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding-right: 500px;
-width: 100%;
-}
+    .message-form .btn {
+        background-color: #D4AF37;
+        border: none;
+        color: black;
+        font-size: 1em;
+        font-family: Montserrat;
+        padding: 10px 50px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
 
-.form-input{
-margin-top: 20px;
-min-height: 30px;
-min-width: 500px;
-}
-
-.message-input{
-margin-bottom: 10px;
-height: 100px;
-width: 500px;
-}
 
 /*My account page*/
 
-.account-text{
+.account-text {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
     font-family: Montserrat;
 }
 
-.account-container{
+.account-container {
     margin: auto;
     border: 1px solid #000000;
 }
 
-.account-container ul{
-    list-style-type: none;
-}
+    .account-container ul {
+        list-style-type: none;
+    }
 
-.account-container ul li{
-    border: 1px solid #000000;
-    padding: 8px;
+        .account-container ul li {
+            border: 1px solid #000000;
+            padding: 8px;
+        }
 
-}
-
-.selected{
+.selected {
     background-color: #000000;
     color: white;
 }
@@ -376,11 +390,12 @@ width: 500px;
     font-size: 22px;
     margin-top: 30px;
 }
-.account-info{
-    display: block;
 
+.account-info {
+    display: block;
 }
-.account-button{
+
+.account-button {
     display: inline-block;
     background: #000000;
     font-family: Montserrat;
@@ -389,413 +404,380 @@ width: 500px;
     margin: 30px 0;
     transition: background 0.5s;
 }
-.account-input{
+
+.account-input {
     margin-bottom: 10px;
     min-height: 40px;
     min-width: 200px;
     font-family: Montserrat;
 }
 
-.message-form{
-margin: 50px 0px 0px 250px
+.message-form {
+    margin: 50px 0px 0px 250px
 }
 
 /***Login and registration pages*/
 
 
-.login-form-container{
-display: block;
-margin-top: 90px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 40px;
-
-width: 892px;
-height: 1298px;
-background: #FFFFFF;
-border: 1px solid #000000;
-box-sizing: border-box;
-
+.login-form-container {
+    display: block;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 892px;
+    height: 1298px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
 }
 
-.login-title{
-margin-top: 50px;
-margin-left: 350px;
-margin-right: auto;
-margin-bottom: 40px;
-
-width: 344px;
-height: 87px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 64px;
-line-height: 78px;
-
-color: #000000;
-
+.login-title {
+    margin-top: 50px;
+    margin-left: 350px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 344px;
+    height: 87px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
 }
 
 
-.sign-up-title{
-margin-top: 50px;
-margin-left: 310px;
-margin-right: auto;
-margin-bottom: 40px;
-
-width: 800px;
-height: 87px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 64px;
-line-height: 78px;
-
-color: #000000;
+.sign-up-title {
+    margin-top: 50px;
+    margin-left: 310px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 800px;
+    height: 87px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    color: #000000;
 }
 
 
-.login-subtitle{
-display: block;
-margin-top: 20px;
-margin-left: 280px;
-
-width: 392px;
-height: 57px;
-
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 29px;
+.login-subtitle {
+    display: block;
+    margin-top: 20px;
+    margin-left: 280px;
+    width: 392px;
+    height: 57px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
 }
 
-.not-member-yet{
-color: #000000;
+.not-member-yet {
+    color: #000000;
 }
 
-.sign-up{
-color: #0071c2;
-}
-.sign-up:hover{
-color: #33aaff;
+.sign-up {
+    color: #0071c2;
 }
 
-.login-logo{
-width: 75px;
-height: 66px;
+    .sign-up:hover {
+        color: #33aaff;
+    }
 
-position: relative;
-top: 20px;
-left: 20px;
-
+.login-logo {
+    width: 75px;
+    height: 66px;
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
 
-.login-container{
-width: 528px;
-height: 100px;
-
-margin-top: 50px;
-margin-left: 190px;
+.login-container {
+    width: 528px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 190px;
 }
 
-.login-text{
-font-family: Cabin;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 30px;
-color: #FFFFFF;
-
-position: relative;
-left: 200px;
-bottom: 50px;
+.login-text {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    left: 200px;
+    bottom: 50px;
 }
 
 
-.facebook-container{
-background: #0365D8;
+.facebook-container {
+    background: #0365D8;
 }
 
-.google-container{
-background: #479CFF;
+.google-container {
+    background: #479CFF;
 }
 
-.or-container{
-position: relative;
-top: 160px;
-left: 440px;
+.or-container {
+    position: relative;
+    top: 160px;
+    left: 440px;
 }
 
-.or-text{
-width: 33px;
-height: 42px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 30px;
-
-color: #000000;
+.or-text {
+    width: 33px;
+    height: 42px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.or-line-1{
-position: absolute;
-top: 10px;
-right: 920px;
-width: 289px;
-height: 0px;
-border: 0.5px solid #d1d1d1;
+.or-line-1 {
+    position: absolute;
+    top: 10px;
+    right: 920px;
+    width: 289px;
+    height: 0px;
+    border: 0.5px solid #d1d1d1;
 }
 
-.or-line-2{
-position: absolute;
-top: 10px;
-left: 80px;
-width: 289px;
-height: 0px;
-border: 0.5px solid #d1d1d1;
+.or-line-2 {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 289px;
+    height: 0px;
+    border: 0.5px solid #d1d1d1;
 }
 
-.login-with-email-container{
-position: relative;
-left: 250px;
-top: 250px;
-
-text-align: center;
-
-width: 430px;
-height: 67px;
-
-background: #FFFFFF;
-border: 1px solid #000000;
-box-sizing: border-box;
-
+.login-with-email-container {
+    position: relative;
+    left: 250px;
+    top: 250px;
+    text-align: center;
+    width: 430px;
+    height: 67px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
 }
 
-.login-with-email-text{
-padding-top: 0px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 25px;
-line-height: 30px;
-
-color: #000000;
+.login-with-email-text {
+    padding-top: 0px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.privacy-policy-container{
-position: relative;
-left: 200px;
-top: 300px;
-
-width: 645px;
-height: 49px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 29px;
-
-color: #777474;
-
+.privacy-policy-container {
+    position: relative;
+    left: 200px;
+    top: 300px;
+    width: 645px;
+    height: 49px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #777474;
 }
 
-.login-as-admin-container{
-position: relative;
-left: 370px;
-top: 400px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 29px;
+.login-as-admin-container {
+    position: relative;
+    left: 370px;
+    top: 400px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
 }
 
-.login-as-admin{
-color: #0084ff;
-text-decoration: underline;
+.login-as-admin {
+    color: #0084ff;
+    text-decoration: underline;
 }
 
 /**Login as Admin**/
 
-.admin-login-form-container{
-display: block;
-margin-top: 90px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 40px;
-
-width: 892px;
-height: 808px;
-background: #FFFFFF;
-border: 1px solid #000000;
-box-sizing: border-box;
+.admin-login-form-container {
+    display: block;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 892px;
+    height: 808px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
 }
 
-.admin-login-title{
-margin-top: 50px;
-margin-left: 190px;
-margin-right: auto;
-margin-bottom: 100px;
-
-width: 800px;
-height: 87px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 56px;
-line-height: 78px;
-
-color: #000000;
+.admin-login-title {
+    margin-top: 50px;
+    margin-left: 190px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 800px;
+    height: 87px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 78px;
+    color: #000000;
 }
 
-.login-as-member-container{
-position: relative;
-left: 390px;
-top: 100px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 29px;
+.login-as-member-container {
+    position: relative;
+    left: 390px;
+    top: 100px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
 }
 
 /**Sign up with email**/
 
 .form-control {
-  margin-top: 50px;
-  margin-bottom: 100px;
-  position: relative;
-  left: 200px;
-  width: 500px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    position: relative;
+    left: 200px;
+    width: 500px;
 }
 
-.form-control label{
-  display: inline-block;
-  margin-bottom: 20px;
-  font-family: Montserrat;
-  font-size: 24px;
-}
+    .form-control label {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-family: Montserrat;
+        font-size: 24px;
+    }
 
-.form-control input {
-  border: none;
-  border-bottom: 1px solid #000000;
-  display: block;
-  font-family: Montserrat;
-  font-size: 14px;
-  padding: 10px;
-  width: 100%;
-}
+    .form-control input {
+        border: none;
+        border-bottom: 1px solid #000000;
+        display: block;
+        font-family: Montserrat;
+        font-size: 14px;
+        padding: 10px;
+        width: 100%;
+    }
 
-.form-control input:focus{
-outline-width: 0;
-}
+        .form-control input:focus {
+            outline-width: 0;
+        }
 
-.form-control.success input{
-  border-color: #2ecc71;
-}
+    .form-control.success input {
+        border-color: #2ecc71;
+    }
 
-.form-control.error input{
-  border-color: #e74c3c;
-}
+    .form-control.error input {
+        border-color: #e74c3c;
+    }
 
 
-.form-control small {
-  visibility: hidden;
-  font-family: Montserrat;
-  position: relative;
-  top: 20px;
-  left: 0;
-  font-size: 18px;
-}
+    .form-control small {
+        visibility: hidden;
+        font-family: Montserrat;
+        position: relative;
+        top: 20px;
+        left: 0;
+        font-size: 18px;
+    }
 
-.form-control.error small {
-  color: #e74c3c;
-  visibility: visible;
-}
+    .form-control.error small {
+        color: #e74c3c;
+        visibility: visible;
+    }
 
-.make-sure-password{
-margin-top: 10px;
-font-family: Montserrat;
-font-size: 12px;
+.make-sure-password {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 12px;
 }
 
 .sign-up-button {
-  background-color: #ffffff;
-  color: #000000;
-  border: 1px solid #000000;
-  display: block;
-  font-family: Montserrat;
-  font-size: 21px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 310px;
-  padding: 18px;
-  width: 300px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    display: block;
+    font-family: Montserrat;
+    font-size: 21px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 310px;
+    padding: 18px;
+    width: 300px;
 }
 
-.sign-up-button:hover{
-background-color: #dbdbdb;
+    .sign-up-button:hover {
+        background-color: #dbdbdb;
+    }
+
+.or-sign-up-text {
+    width: 400px;
+    height: 42px;
+    position: absolute;
+    right: 570px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.or-sign-up-text{
-width: 400px;
-height: 42px;
-
-position: absolute;
-right: 570px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 30px;
-
-color: #000000;
+.or-line-3 {
+    position: absolute;
+    top: 10px;
+    right: 1010px;
+    width: 200px;
+    height: 0px;
+    border: 0.5px solid #d1d1d1;
 }
 
-.or-line-3{
-position: absolute;
-top: 10px;
-right: 1010px;
-width: 200px;
-height: 0px;
-border: 0.5px solid #d1d1d1;
+.or-line-4 {
+    position: absolute;
+    top: 10px;
+    left: 170px;
+    width: 200px;
+    height: 0px;
+    border: 0.5px solid #d1d1d1;
 }
 
-.or-line-4{
-position: absolute;
-top: 10px;
-left: 170px;
-width: 200px;
-height: 0px;
-border: 0.5px solid #d1d1d1;
+.or-sign-up-container {
+    position: relative;
+    top: 60px;
+    left: 440px;
 }
 
-.or-sign-up-container{
-position: relative;
-top: 60px;
-left: 440px;
+.or-sign-up-social-media {
+    position: relative;
+    top: 140px;
+    left: 350px;
 }
 
-.or-sign-up-social-media{
-position: relative;
-top: 140px;
-left: 350px;
-}
-
-.or-sign-up-social-media-logo{
-width: 75px;
-height: 66px;
-margin: 20px;
+.or-sign-up-social-media-logo {
+    width: 75px;
+    height: 66px;
+    margin: 20px;
 }
 
 /*----Product Shop----*/
@@ -805,7 +787,6 @@ margin: 20px;
     position: center;
     font-family: Montserrat;
     font-size: large;
-
 }
 
 .hline {
@@ -833,7 +814,6 @@ margin: 20px;
 .titlecontainer {
     height: 900px;
     background-image: url(Images/img6.jpg);
-    margin-top: -45px;
 }
 
 .slogan2 {
@@ -843,7 +823,7 @@ margin: 20px;
 }
 
 .img1 {
-    display:block;
+    display: block;
 }
 
 
@@ -857,302 +837,281 @@ margin: 20px;
     transition: background 0.5s;
 }
 
-.btn:hover {
-    background: #424242;
-}
+    .btn:hover {
+        background: #424242;
+    }
 
-.heading2{
+.heading2 {
     margin-top: 30px;
 }
 
-.message-form{
+.message-form {
     text-align: center;
     display: inline-block;
 }
 
 /*Product Info Page*/
 
-.line15{
-position: absolute;
-width: 410px;
-height: 0px;
-left: 54px;
-top: 438px;
-border: 2px solid #000000;
+.line15 {
+    position: absolute;
+    width: 410px;
+    height: 0px;
+    left: 54px;
+    top: 438px;
+    border: 2px solid #000000;
 }
 
-.line16{
-position: absolute;
-width: 428px;
-height: 0px;
-left: 1005px;
-top: 438px;
-border: 2px solid #000000;
-
-}
-
-
-
-.productInformationHeader{
-position: absolute;
-width: 468px;
-height: 78px;
-left: 540px;
-top: 404px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 45px;
-line-height: 55px;
-
-color: #000000;
+.line16 {
+    position: absolute;
+    width: 428px;
+    height: 0px;
+    left: 1005px;
+    top: 438px;
+    border: 2px solid #000000;
 }
 
 
 
-.image13{
-position: absolute;
-width: 566px;
-height: 784px;
-left: 57px;
-top: 573px;
-
-background: url(image.png);
-
+.productInformationHeader {
+    position: absolute;
+    width: 468px;
+    height: 78px;
+    left: 540px;
+    top: 404px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
 }
 
 
 
-.Rectangle43{
-
-position: absolute;
-width: 703px;
-height: 790px;
-left: 682px;
-top: 567px;
-
-background: #FFFFFF;
-border: 1px solid #000000;
-box-sizing: border-box;
+.image13 {
+    position: absolute;
+    width: 566px;
+    height: 784px;
+    left: 57px;
+    top: 573px;
+    background: url(image.png);
 }
 
 
 
-.productName{
-position: absolute;
-width: 215px;
-height: 53px;
-left: 922px;
-top: 600px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 34px;
-
-color: #000000;
+.Rectangle43 {
+    position: absolute;
+    width: 703px;
+    height: 790px;
+    left: 682px;
+    top: 567px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
 }
 
 
 
-.productPrice{
-position: absolute;
-width: 96px;
-height: 43px;
-left: 986px;
-top: 653px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 28px;
-line-height: 34px;
+.productName {
+    position: absolute;
+    width: 215px;
+    height: 53px;
+    left: 922px;
+    top: 600px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
 }
 
 
 
-.productQuantity{
-position: absolute;
-width: 170px;
-height: 27px;
-left: 865px;
-top: 772px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 28px;
-line-height: 34px;
-
-color: #000000;
+.productPrice {
+    position: absolute;
+    width: 96px;
+    height: 43px;
+    left: 986px;
+    top: 653px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
 }
 
 
 
-.productSize{
-position: absolute;
-width: 68px;
-height: 40px;
-left: 901px;
-top: 880px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 28px;
-line-height: 34px;
-}
-
-.productQuantityBox[type=number]{
-
-position: absolute;
-width: 203px;
-height: 53px;
-left: 1044px;
-top: 762px;
-padding: 16px 20px;
-
-background: #FFFFFF;
-border: 1px solid #000000;
-box-sizing: border-box;
-
-}
-
-
-select{
-position: absolute;
-width: 203px;
-height: 53px;
-left: 1044px;
-top: 876px;
-padding: 16px 20px;
-
-background: #FFFFFF;
-border: 1px solid #000000;
-box-sizing: border-box;
-
+.productQuantity {
+    position: absolute;
+    width: 170px;
+    height: 27px;
+    left: 865px;
+    top: 772px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
 }
 
 
 
-.addToBasketBox{
+.productSize {
+    position: absolute;
+    width: 68px;
+    height: 40px;
+    left: 901px;
+    top: 880px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+}
 
-position: absolute;
-width: 421px;
-height: 70px;
-left: 843px;
-top: 1076px;
-font-size: 24px;
+.productQuantityBox[type=number] {
+    position: absolute;
+    width: 203px;
+    height: 53px;
+    left: 1044px;
+    top: 762px;
+    padding: 16px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
 
-background-color: white;
-color: black;
 
+select {
+    position: absolute;
+    width: 203px;
+    height: 53px;
+    left: 1044px;
+    top: 876px;
+    padding: 16px 20px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+
+
+.addToBasketBox {
+    position: absolute;
+    width: 421px;
+    height: 70px;
+    left: 843px;
+    top: 1076px;
+    font-size: 24px;
+    background-color: white;
+    color: black;
 }
 
 
 
 .button3:hover {
-background: #000000;
-color: white;
+    background: #000000;
+    color: white;
 }
 
 
 
-.addToWishlist{
-
-position: absolute;
-width: 228px;
-height: 45px;
-left: 934px;
-top: 1227px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 34px;
-padding: 0;
-border: none;
-background: none;
-text-decoration: underline;
+.addToWishlist {
+    position: absolute;
+    width: 228px;
+    height: 45px;
+    left: 934px;
+    top: 1227px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 34px;
+    padding: 0;
+    border: none;
+    background: none;
+    text-decoration: underline;
 }
 
 
 
 .product-desc-title {
-position: absolute;
-width: 680px;
-height: 88px;
-left: 112px;
-top: 1464px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 45px;
-line-height: 55px;
-color: #000000;
+    position: absolute;
+    width: 680px;
+    height: 88px;
+    left: 112px;
+    top: 1464px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
 }
 
 
 
 .product-desc {
-position: absolute;
-width: 1209px;
-height: 272px;
-left: 116px;
-top: 1569px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 300;
-font-size: 28px;
-line-height: 34px;
-color: #000000;
+    position: absolute;
+    width: 1209px;
+    height: 272px;
+    left: 116px;
+    top: 1569px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
 }
 
 
 
-.boxed{
-position: absolute;
-width: 1334px;
-height: 554px;
-left: 51px;
-top: 1412px;
-background-color: none;
-border: 1px solid #000000;
-box-sizing: border-box;
-opacity: 0.6;
+.boxed {
+    position: absolute;
+    width: 1334px;
+    height: 554px;
+    left: 51px;
+    top: 1412px;
+    background-color: none;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    opacity: 0.6;
 }
 
 /***what are customer says***/
-.testimonial{
+.testimonial {
     padding-top: 100px;
 }
-.testimonial .col-3{
-    text-align: center;
-    padding: 40px 20px;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.5s;
-}
-.customer{
+
+    .testimonial .col-3 {
+        text-align: center;
+        padding: 40px 20px;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.5s;
+    }
+
+.customer {
     margin-top: 20px;
 }
-.fa.fa-quote-left{
+
+.fa.fa-quote-left {
     font-size: 12px;
     color: #D4AF37;
 }
 
-.col-3 p{
+.col-3 p {
     font-size: 12px;
     margin: 12px 0;
     color: #777;
 }
 
-.fa{
-color: #D4AF37;
+.fa {
+    color: #D4AF37;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
@@ -1160,8 +1119,7 @@ color: #D4AF37;
 
 @font-face {
     font-family: "Booter - Zero Zero";
-    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
-         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"), url("Fonts/Booter - Zero Zero.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
@@ -1200,9 +1158,9 @@ html, body {
     border-bottom: 1px solid rgba(255, 255, 255, .3)
 }
 
-.main-nav li {
-    padding: 0 5%;
-}
+    .main-nav li {
+        padding: 0 5%;
+    }
 
 .nav a:hover {
     background-color: rgba(255, 255, 255, .3)
@@ -1266,10 +1224,10 @@ html, body {
     align-items: center;
 }
 
-.main-footer-container ul {
-    flex-grow: 1;
-    text-align: end;
-}
+    .main-footer-container ul {
+        flex-grow: 1;
+        text-align: end;
+    }
 
 .footer-nav li {
     padding: 0 .5em;
@@ -1299,9 +1257,9 @@ html, body {
     padding-right: 2em;
 }
 
-.btn-header:hover {
-    background-color: rgba(255, 255, 255, .3);
-}
+    .btn-header:hover {
+        background-color: rgba(255, 255, 255, .3);
+    }
 
 .btn-play {
     display: block;
@@ -1322,9 +1280,9 @@ html, body {
     font-weight: bold;
 }
 
-.btn-primary:hover {
-    background-color: lightgrey;
-}
+    .btn-primary:hover {
+        background-color: lightgrey;
+    }
 
 .tour-row {
     border-bottom: 1px solid black;
@@ -1332,9 +1290,9 @@ html, body {
     margin-bottom: 1em;
 }
 
-.tour-row:last-child {
-    border: none;
-}
+    .tour-row:last-child {
+        border: none;
+    }
 
 .tour-item {
     display: inline-block;
@@ -1447,9 +1405,9 @@ html, body {
     font-weight: bold;
 }
 
-.btn-danger:hover {
-    background-color: #CC4C4C;
-}
+    .btn-danger:hover {
+        background-color: #CC4C4C;
+    }
 
 .cart-quantity-input {
     height: 34px;
@@ -1468,9 +1426,9 @@ html, body {
     border-bottom: 1px solid black;
 }
 
-.cart-row:last-child .cart-column {
-    border: none;
-}
+    .cart-row:last-child .cart-column {
+        border: none;
+    }
 
 .cart-total {
     text-align: end;
@@ -1500,37 +1458,51 @@ html, body {
 
 /***purchase form***/
 .checkout-title {
+    margin-top: 50px;
     color: #D4AF37;
-    margin-left: 875px;
+    text-align: center;
 }
 
 .purchase-form {
-    margin-left: 750px;
+    text-align: center;
 }
+
+
+
+/*--payment form--*/
+.payment-title {
+    margin-top: 50px;
+    color: #D4AF37;
+    text-align: center;
+}
+
+.payment-form {
+    text-align: center;
+}
+
 
 /*Admin Dashboard*/
 
-.admin-dashboard-container{
-padding: 50px;
-margin-left: 200px;
-margin-bottom: 200px;
+.admin-dashboard-container {
+    padding: 50px;
+    margin-left: 200px;
+    margin-bottom: 200px;
 }
 
-.admin-dashboard-container h1{
-font-size: 56px;
-font-family: Montserrat;
-color: #000000;
-}
+    .admin-dashboard-container h1 {
+        font-size: 56px;
+        font-family: Montserrat;
+        color: #000000;
+    }
 
-.admin-dashboard-container h2{
-font-family: Montserrat;
-color: #000000;
-}
+    .admin-dashboard-container h2 {
+        font-family: Montserrat;
+        color: #000000;
+    }
 
 
-.admin-dashboard-link{
-margin-top: 30px;
-
+.admin-dashboard-link {
+    margin-top: 30px;
 }
 
 
@@ -1538,7 +1510,7 @@ margin-top: 30px;
 
 /**Footer**/
 
-.footer{
+.footer {
     display: grid;
     grid-template-columns: 400px 400px 400px;
     grid-template-rows: 400px 100px;
@@ -1548,85 +1520,93 @@ margin-top: 30px;
     margin-top: 40px;
     border-top: 1px solid #C5C5C5;
     box-shadow: 1px 0px 5px grey;
-
 }
 
-.footer-element{
+.footer-element {
     color: #000000;
     font-family: Montserrat;
     margin-left: 100px;
 }
-.app-logo{
+
+.app-logo {
     margin-top: 20px;
 }
-.app-logo-1 img{
+
+.app-logo-1 img {
     width: 140px;
 }
-.app-logo-2 img{
+
+.app-logo-2 img {
     width: 140px;
 }
 
-.facebook-black-2{
-height: 40px;
-width: 40px;
-margin-left: 10px;
+.facebook-black-2 {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
 }
 
-.instagram-black-2{
-height: 40px;
-width: 45px;
-margin-left: 50px;
+.instagram-black-2 {
+    height: 40px;
+    width: 45px;
+    margin-left: 50px;
 }
 
-.footer hr{
+.footer hr {
     border: none;
     background: #0f0f0f;
     height: 1px;
     margin: 20px 0;
 }
-.copyright{
+
+.copyright {
     text-align: center;
     margin-left: 500px;
     width: 200px;
 }
 
-.content-line{
-margin: 100px auto 0px auto;
-width: 1200px;
+.content-line {
+    margin: 100px auto 0px auto;
+    width: 1200px;
 }
-.opening-times{
+
+.opening-times {
     text-align: center;
 }
-.content-line{
+
+.content-line {
     text-align: center;
     margin-top: 15px;
 }
-.map{
+
+.map {
     text-align: center;
     margin-bottom: 20px;
 }
-.time{
+
+.time {
     text-align: center;
 }
 
 /*****add product page css******/
-.heading4{
+.heading4 {
     text-align: center;
-    margin-top: 50px ;
-    font-family: Montserrat;
+    margin-top: 50px;
 }
-.image-pro{
+
+.image-pro {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 15%;
 }
-.Product-add-form{
+
+.Product-add-form {
     text-align: center;
 }
-.admin-logout-msg{
+
+.admin-logout-msg {
     margin-top: 50px;
     margin-bottom: 60px;
     text-align: center;
-
 }
