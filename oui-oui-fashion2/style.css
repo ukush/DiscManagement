@@ -24,6 +24,10 @@ h3 {
     font-weight: normal;
     color: #000000;
 }
+
+input[type=text]{
+
+}
 /**header**/
 .header {
     background: #ffffff;
@@ -31,6 +35,15 @@ h3 {
     border-bottom: 1px solid #C5C5C5;
     box-shadow: 10px 0px 5px grey;
     margin-bottom: 0px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav{
+    border-top-style: 0.5px solid #d4d4d4;
 }
 
 nav ul {
@@ -83,6 +96,7 @@ input[type="text"], textarea {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 200px;
 }
 
 .col-2 {
@@ -162,37 +176,36 @@ input[type="text"], textarea {
     padding: 10px;
     min-width: 200px;
     margin-bottom: 50px;
-    transition: transform 0.5s;
 }
 
     .col-4 img {
         width: 100%;
+        transition: 0.5s;
+    }
+
+    .col-4 img:hover {
+    opacity: 0.3;
     }
 
 .title {
     font-family: Montserrat;
     text-align: center;
-    margin: 0 auto 80px;
-    position: relative;
+    margin: 0 auto 60px;
     line-height: 60px;
     color: #000000;
+
 }
 
-    .title:after {
+    .title-line {
         content: '';
         background: #D4AF37;
-        width: 80px;
-        height: 5px;
+        width: 100px;
+        height: 6px;
         border-radius: 5px;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        margin: 0 auto 0;
     }
 
-.col-4:hover {
-    transform: translateY(-5px);
-}
+
 
 
 /**Homepage**/
@@ -511,7 +524,7 @@ text-align: center;
     display: flex;
     color: #000000;
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 120px;
     align-items: center;
     flex-wrap: wrap;
     justify-content:center;
@@ -523,7 +536,6 @@ text-align: center;
     align-items: center;
     color: #000000;
     font-size: 22px;
-    margin-top: 30px;
 }
 
 .account-info{
@@ -561,7 +573,7 @@ text-align: center;
 
 .login-form-container {
     display: block;
-    margin-top: 90px;
+    margin-top: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -756,7 +768,7 @@ text-align: center;
 
 .admin-login-form-container {
     display: block;
-    margin-top: 90px;
+    margin-top: 300px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -1627,6 +1639,7 @@ html, body {
 
 .admin-dashboard-container {
     padding: 50px;
+    margin-top: 200px;
     margin-left: 200px;
     margin-bottom: 200px;
 }
