@@ -6,6 +6,7 @@
 
 body {
     font-family: Montserrat;
+    
 }
 
 
@@ -45,9 +46,7 @@ nav ul {
         font-size: 18px;
     }
 
-li {
-    color: #000000;
-}
+
 
 a {
     color: #000000;
@@ -61,6 +60,13 @@ a {
 
 p {
     color: #000000;
+}
+
+input[type="text"], textarea {
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    color: black;
 }
 
 .container {
@@ -406,31 +412,111 @@ text-align: center;
 
 /*My account page*/
 
+.account-heading{
+    position: relative;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: bold;    
+    min-width: 450px;
+}
+
+
+.account-line1{
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    border: 1px solid black;
+    height: 0px;
+    width: 25%;
+}
+
+.account-line2{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    border: 1px solid black;
+    height: 1px;
+    width: 25%;
+}
+
+.account-line3{
+    margin: 0px auto 0px auto;
+    width: 100%;
+    border: 0.8px solid #adadad;
+}
+
 .account-text {
     margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
     font-family: Montserrat;
 }
 
+.account-text h2{
+    margin: 3px;
+}
+
 .account-container {
-    margin: auto;
+    margin: 100px;
+    border: 1px solid #000000;
+    text-align: center;
+    display: flex;
+    flex-direction: right;
+    padding: 5px;
+}
+
+.account-container .account-container{
+    margin: 15px;
+    max-height: 260px;
+}
+
+.account-container p {
+    margin: 0px !important;
+}
+
+.account-list{
     border: 1px solid #000000;
 }
 
-    .account-container ul {
-        list-style-type: none;
-    }
-
-        .account-container ul li {
-            border: 1px solid #000000;
-            padding: 8px;
-        }
-
-.selected {
-    background-color: #000000;
-    color: white;
+.account-link{
+    color:gray;
+    text-decoration: underline;
 }
+    
+.account-space{
+    padding: 25px;
+}
+
+.account-list ul{
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+}
+
+.account-list ul li {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+.selected li{
+    background-color: #000000;
+    color: #ddd !important;
+}
+
+.account-text strong{
+    text-decoration:underline;
+    font-weight: bolder;
+    color: black !important;
+}
+
+.account-row{
+    display: flex;
+    color: #000000;
+    font-size: 22px;
+    margin-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
 
 .row {
     display: flex;
@@ -440,8 +526,9 @@ text-align: center;
     margin-top: 30px;
 }
 
-.account-info {
+.account-info{
     display: block;
+    width: 450px;
 }
 
 .account-button {
@@ -449,9 +536,11 @@ text-align: center;
     background: #000000;
     font-family: Montserrat;
     color: #fff;
-    padding: 8px 30px;
-    margin: 30px 0;
+    padding: 8px 0px;
+    margin: 15px 0px;
     transition: background 0.5s;
+    width: 180px;
+    height: 50px;
 }
 
 .account-input {
@@ -459,6 +548,8 @@ text-align: center;
     min-height: 40px;
     min-width: 200px;
     font-family: Montserrat;
+    color: black;
+    font-size: 15px;
 }
 
 .message-form {

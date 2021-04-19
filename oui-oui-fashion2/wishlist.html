@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="header">
@@ -42,32 +42,63 @@
                         <li><a href="order.html">My Orders</a></li>
                         <li>My Address</li>
                         <li><a href="wallet.html">My Wallet</a></li>
-                        <li><a href="wishlist.html">My Wishlist</a></li>
-                        <div class="selected"><li>My Account</li></div>
+                        <div class="selected"><li>My Wishlist</li></div>
+                        <li><a href="account.html">My Account</a></li>
                     </ul>
                     </div>
                     <br>
             </div>
         </div>
         <div class="account-container">
+            
             <div class="container">
+                
                 <div class="account-heading">
+                   
                     <div class="account-line1"></div>
-                    <h3>My Account</h3>
+                        <h3>My Wishlist</h3>
                     <div class="account-line2"></div>
-                </div>
-                <p class="account-text">View and edit your personal info below:</p>
-                <h5>Login email: jsmith1@gmail.com</h5>
 
-                <div class="account-info">
-                    <form>
-                        <input class="account-input" type="text" name="FirstName" placeholder="First Name">
-                        <input class="account-input" type="text" name="LastName" placeholder="Last Name">
-                        <input class="account-input" type="text" name="ContactEmail" placeholder="Contact Email">
-                        <input class="account-input" type="text" name="Phone" placeholder="Phone">
-                        <input class="account-button" type="Submit" name="UpdateInfo" >
-                    </form> 
                 </div>
+
+                <div class="account-container" >
+                    
+                    <img src="Images/prod2.jpg" width="200px" height="250px">
+
+                    <div class="account-text">
+
+                        <h2>Product 2</h2>
+
+                        <p>RS 765</p>
+
+                        <button class="account-button">Add to Cart</button>
+
+                        <p><a href="javascript:void(0)" onclick="$(this).parent().parent().parent().remove()">Remove from wishlist</a></p>
+
+                    </div>
+
+                </div>
+                
+                <hr class="account-line3">
+
+                <div class="account-container">
+                    
+                    <img src="Images/prod7.jpg" width="200px" height="250px">
+
+                    <div class="account-text">
+
+                        <h2>Product 7</h2>
+
+                        <p>RS 840</p>
+
+                        <button class="account-button">Add to Cart</button>
+
+                        <p><a href="javascript:void(0)" onclick="$(this).parent().parent().parent().remove()">Remove from wishlist</a></p>
+
+                    </div>
+
+                </div>
+
             </div>
         </div>
     </div>
