@@ -12,10 +12,12 @@ body {
 
 
 h1 {
+font-family: Montserrat;
     color: #000000;
 }
 
 h2 {
+font-family: Montserrat;
     color: #000000;
 }
 
@@ -77,7 +79,7 @@ p {
 
 input[type="text"], textarea {
     padding: 4px 8px;
-    border-radius: 10px;
+    border-radius: 0px;
     border: 1px solid #ccc;
     color: black;
 }
@@ -188,7 +190,6 @@ input[type="text"], textarea {
     }
 
 .title {
-    font-family: Montserrat;
     text-align: center;
     margin: 0 auto 60px;
     line-height: 60px;
