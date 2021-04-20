@@ -13,6 +13,7 @@ body {
 
 h1 {
 font-family: Montserrat;
+font-weight: 200;
     color: #000000;
 }
 
@@ -27,12 +28,13 @@ h3 {
     color: #000000;
 }
 
-input[type=text]{
-
+b{
+color: #000000;
 }
+
 /**header**/
 .header {
-    background: #ffffff;
+    background: #fff;
     text-align: center;
     border-bottom: 1px solid #C5C5C5;
     box-shadow: 10px 0px 5px grey;
@@ -77,11 +79,29 @@ p {
     color: #000000;
 }
 
-input[type="text"], textarea {
+input[type="text"]{
     padding: 4px 8px;
     border-radius: 0px;
     border: 1px solid #ccc;
     color: black;
+    background: #fff;
+}
+textarea{
+    padding: 4px 8px;
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    color: black;
+    background: #fff;
+}
+
+input:hover{
+padding: 4px 8px;
+background: #b0b0b0;
+}
+
+textarea:hover{
+padding: 4px 8px;
+background: #b0b0b0;
 }
 
 .container {
@@ -387,19 +407,25 @@ margin-top: -30px;
 }
 
 .message-form{
-padding-right: 200px;
+display: grid;
+grid-template-columns: 500px 500px;
+justify-content: center;
+width: 100%;
+margin-top: 30px;
 }
 
 
 .message-form-text{
-width : 50%;
-height: 400px;
+display: inline-block;
+width: 300px;
+height: 300px;
 float: left;
-padding-right: 50px;
+text-align: center;
 }
 
 .message-form-query{
-width: 50%;
+display: inline-block;
+width: 400px;
 height: 500px;
 float: right;
 }
@@ -413,38 +439,57 @@ float: right;
     padding: 10px 50px;
     text-transform: uppercase;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
+    box-shadow: 2px 5px 5px grey;
+
 }
 
 .message-form-query .btn:hover{
 background-color: #e0cd90;
 }
 
-.FAQ-container{
-margin-bottom: 400px;
+.returns-container{
+display: grid;
+grid-template-columns: 800px;
+justify-content: center;
+width: 100%;
+margin-top: 30px;
+}
+
+.returns-description{
+font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.FAQ-column-container{
+display: grid;
+grid-template-columns: 500px 500px;
+justify-content: center;
+margin-bottom: 100px;
 }
 
 .FAQ-column{
 text-align: center;
-width: 50%;
 height: 600px;
 }
 
 .FAQ-column-1{
+display: inline-block;
 float: left;
-padding-left: 200px;
 padding-right: 10px;
 }
 
 .FAQ-column-2{
+display: inline-block;
 float: right;
 padding-left: 10px;
-padding-right: 200px;
 }
 
-.FAQ-question{
-text-align: center;
-}
 
 /*My account page*/
 
@@ -585,10 +630,6 @@ text-align: center;
     font-family: Montserrat;
     color: black;
     font-size: 15px;
-}
-
-.message-form {
-    margin: 50px 0px 0px 250px
 }
 
 /***Login and registration pages*/
@@ -1020,10 +1061,6 @@ text-align: center;
     margin-top: 30px;
 }
 
-.message-form {
-    text-align: center;
-    display: inline-block;
-}
 
 /*Product Info Page*/
 
