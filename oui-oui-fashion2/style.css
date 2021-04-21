@@ -419,7 +419,7 @@ margin-top: 30px;
 display: inline-block;
 width: 300px;
 height: 300px;
-float: left;
+
 text-align: center;
 }
 
@@ -427,7 +427,7 @@ text-align: center;
 display: inline-block;
 width: 400px;
 height: 500px;
-float: right;
+
 }
 
 .message-form-query .btn {
@@ -480,13 +480,13 @@ height: 600px;
 
 .FAQ-column-1{
 display: inline-block;
-float: left;
+
 padding-right: 10px;
 }
 
 .FAQ-column-2{
 display: inline-block;
-float: right;
+
 padding-left: 10px;
 }
 
@@ -1831,5 +1831,10 @@ html, body {
 
 .purchase-confirmation h1, h2{
     font-family: Montserrat;
+
+}
+#real-file{
+    margin-right: 43px;
+    text-align: center;
 
 }
