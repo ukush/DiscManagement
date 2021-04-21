@@ -1833,8 +1833,12 @@ html, body {
     font-family: Montserrat;
 
 }
-#real-file{
-    margin-right: 43px;
-    text-align: center;
 
+#real-file {
+    margin-left: 43%;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
