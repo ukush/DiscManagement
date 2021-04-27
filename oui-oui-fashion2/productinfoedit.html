@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
 </head>
 
 <!---Heading--->
@@ -39,20 +40,21 @@
     <!---Content--->
     <div class="content">
         <img class="image13" src="Images/prod1.jpg">
-        <div class="Rectangle43"></div>
+        <div class="Rectangle43">
 
-            <div class="productName">
+            <h1 class="">
                 Dress Name 1
+            </h1>
+            
+            <div class="">RS <input id="price" type="text" value="820">
+                <button onclick="window.location = 'store.html?price=' + $('#price').val()" class="edit-price">Edit Price</button>
             </div>
-    
-            <div class="productPrice">
-                Rs 820
-            </div>
-            <button class="edit-price">Edit Price</button>
+            
+
         </div>
             
         
-        </div>
+        
         
     </div>
 
